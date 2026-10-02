@@ -88,5 +88,5 @@ All four servo headers share a common power (`5V`) and ground (`GND`) bus, with 
 
 * **J3 (UART Header):**
   * Pin 1 (`Rx`) $\rightarrow$ Connected to Black Pill MCU pin `PA9` (`Tx` of USART1) for host ingestion.
-  * Pin 2 (`Tx`) $\rightarrow$ Connected to Black Pill MCU pin `PA10` (`Rx` of USART1) for telemetry transmission[cite: 3].
-  * Pin 3 (`GND`) $\rightarrow$ Connected to system common ground (`GND`)[cite: 3].
+  * Pin 2 (`Tx`) $\rightarrow$ Connected to Black Pill MCU pin `PA10` (`Rx` of USART1) for telemetry transmission.
+  * Pin 3 (`GND`) $\rightarrow$ Connected to system common ground (`GND`).
